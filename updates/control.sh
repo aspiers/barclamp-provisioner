@@ -175,6 +175,7 @@ walk_node_through () {
 }
 
 # If there is a custom control.sh for this system, source it.
+[[ -n "$HOSTNAME" ]] && \
 [[ -x /updates/$HOSTNAME/control.sh ]] && \
     . "/updates/$HOSTNAME/control.sh"
 
