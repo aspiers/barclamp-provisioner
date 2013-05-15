@@ -1,3 +1,4 @@
 skip: all
 
-patch-id changed by cherry-picking.
+Not suitable for upstreaming to community repository.
+TODO: turn into a patch for .spec file.
