@@ -1,4 +1,3 @@
 skip: all
 
-XXX  Enter your justification for blacklisting here or
-XXX  remove the whole note to cancel blacklisting.
+Patch applied to code which has since been removed or parametrized.
