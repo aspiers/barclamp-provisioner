@@ -1,4 +1,4 @@
-skip: all
+skip: release/pebbles/master
 
-XXX  Enter your justification for blacklisting here or
-XXX  remove the whole note to cancel blacklisting.
+This would break for Dell - let's postpone until Crowbar 2.0
+alongside the FHS clean-up.
