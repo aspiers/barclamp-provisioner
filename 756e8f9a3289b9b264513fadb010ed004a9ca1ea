@@ -1,4 +1,4 @@
 skip: all
 
-XXX  Enter your justification for blacklisting here or
-XXX  remove the whole note to cancel blacklisting.
+TODO: determine whether safe to port.
+https://github.com/crowbar/barclamp-provisioner/commit/756e8f9a3289b9b264513fadb010ed004a9ca1ea#commitcomment-3226499
