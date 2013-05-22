@@ -1,6 +1,7 @@
 skip: all
-XXX  (you can optionally change the "all" above to the name of the
-XXX  upstream branch if you want to limit blacklisting to that upstream)
 
-XXX  Enter your justification for blacklisting here or
-XXX  remove the whole note to cancel blacklisting.
+Originally cherry-picked into essex-hack-suse from 87f31996, then
+later reverted by 62a1e387 and then un-reverted by 77cb1045.
+
+However, it was later modified in trunk by c7e52b5e which ditched
+some of the debugging, so we can skip this.
