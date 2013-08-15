@@ -185,7 +185,6 @@ if not nodes.nil? and not nodes.empty?
             SLE-Cloud-PTF
             SUSE-Cloud-2.0-Pool
             SUSE-Cloud-2.0-Updates
-            SLES11-SP3-Pool
             SLES11-SP3-Updates
           ).each do |name|
             suffix = name.sub(/^SLE-/, '')
