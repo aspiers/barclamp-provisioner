@@ -176,7 +176,7 @@ PACKAGES_INSTALL="$PACKAGES_INSTALL biosdevname netcat rubygem-cstruct supportut
 # From sleshammer
 PACKAGES_INSTALL="$PACKAGES_INSTALL rubygem-chef rubygem-rest-client rubygem-cstruct rubygem-libxml-ruby rubygem-wsman rubygem-xml-simple parted lvm2 ipmitool curl tack nfs-client rsyslog ntp tcpdump"
 
-zypper --non-interactive install -t pattern $PATTERNS_INSTALL
+# zypper --non-interactive install -t pattern $PATTERNS_INSTALL
 # Auto-agree with the license since it was already agreed on for the admin server
 zypper --non-interactive install --auto-agree-with-licenses suse-cloud-release
 zypper --non-interactive install $PACKAGES_INSTALL
